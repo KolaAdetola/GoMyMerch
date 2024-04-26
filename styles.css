@@ -66,4 +66,18 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.card-body {
+    flex-grow: 1;
+}
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 
