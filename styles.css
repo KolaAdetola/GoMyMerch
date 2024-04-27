@@ -8,6 +8,7 @@
 /* Basic styling */
 body {
     font-family: Arial, sans-serif;
+  
 }
 
 header {
@@ -15,6 +16,9 @@ header {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav ul {
@@ -29,6 +33,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: larger;
 }
 
 section {
@@ -38,6 +43,7 @@ section {
 
 h1, h2, h3 {
     margin-bottom: 20px;
+    
 }
 
 .product-card {
