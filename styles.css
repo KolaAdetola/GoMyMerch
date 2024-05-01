@@ -72,7 +72,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 20px;
 }
 @media (max-width: 767px) {
     .image-container img {
@@ -85,9 +85,10 @@ nav ul li a:hover {
     height: auto;
 }
 
+
 .text-container {
     flex: 1;
-    padding: 0 50px;
+    padding: 0 20px;
 }
 
 .text-container h2 {
