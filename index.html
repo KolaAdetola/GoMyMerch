@@ -1,50 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Example</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#"><img src="res/1714049457926-fotor-bg-remover-20240425135135.png" width="60px" height="60px">GoMyMerch</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#products">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
 
-    <section id="home" class="container">
-        <h1>Welcome to GoMyMerch</h1>
-        <p>At GoMyMerch, we're passionate about all things anime, and we're dedicated to bringing you the best selection of merchandise from your favorite anime series. Whether you're a seasoned otaku or just dipping your toes into the anime world, you'll find something to love in our extensive collection.</p>
-        <p><h2>Discover a World of Merchandise:</h2>Explore our vast array of merchandise, including figurines, plush toys, apparel, accessories, posters, and more, featuring characters from popular anime series such as Naruto, One Piece, Attack on Titan, My Hero Academia, and many others. From iconic heroes to fierce villains, we've got something for every fan.</p>
-        
+<header>
+    <div class="container">
+        <div class="logo">
+            <img src="res/1714049457926-fotor-bg-remover-20240425135135.png" alt="Logo" width="20px" height="20px">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="main-section">
+        <div class="text-container">
+            <h1>Welcome to GoMyMerch</h1>
+            <p>At GoMyMerch, we're passionate about all things anime, and we're dedicated to bringing you the best selection of merchandise from your favorite anime series. Whether you're a seasoned otaku or just dipping your toes into the anime world, you'll find something to love in our extensive collection.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="image-container">
+            <img src="res/1714423876657-fotor-bg-remover-2024042921523.png" alt="logo">
+        </div>
     </section>
     <section id="products" class="container">
-        <h2>Our Products</h2>
         <div class="row">
             <div class="col-md-6 col-lg-3">
                 <div class="card">
                     <img src="res/gear 5.avif" class="card-img-top" alt="Product 1" width="50px" height="300px">
                     <div class="card-body">
-                        <h3 class="card-title">Luffy Gear 5 Figurine</h3>
+                        <h3 class="card-title">Luffy gear 5 Figurine</h3>
                         <p class="card-text">Experience the awe-inspiring power of Monkey D. Luffy's Gear 5 transformation with this meticulously crafted figurine. Standing at 12 inches tall, this highly detailed figure captures Luffy in his most formidable form, ready to take on any challenge that comes his way.</p>
                         <a href="#" class="btn btn-primary">Shop Now</a>
                     </div>
@@ -125,22 +124,23 @@
             </div>
         </div>
     </section>
-
-    <footer class="bg-dark text-white text-center py-4">
-        <p> 2024 GoMyMerch</p>
-        <div class="social-icons">
-            <a href="#"><img src="res/icons8-facebook-24.png" width="40px" height="40px"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><img src="res/icons8-linkedin-50.png" width="40px" height="40px"><i class="fab fa-twitter"></i></a>
-            <a href="#"><img src="res/1713995302525-fotor-bg-remover-20240424224910.png" width="40px" height="40px"><fab fa-instagram"></i></a>
-          </div>
+            <!-- Product Cards Go Here -->
         </div>
-    </footer>
+    </section>
+</main>
 
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<footer class="bg-dark text-white text-center py-4">
+    <p>2024 GoMyMerch</p>
+    <div class="social-icons">
+        <a href="#"><img src="res/icons8-facebook-24.png" width="40px" height="40px"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><img src="res/icons8-linkedin-50.png" width="40px" height="40px"><i class="fab fa-twitter"></i></a>
+        <a href="#"><img src="res/1713995302525-fotor-bg-remover-20240424224910.png" width="40px" height="40px"><i class="fab fa-instagram"></i></a>
+    </div>
+</footer>
 
-    
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
